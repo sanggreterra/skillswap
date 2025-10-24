@@ -1,0 +1,147 @@
+.testimonials-section {
+  padding: 80px 312px;
+  background: #FFFFFF;
+}
+
+.testimonials-container {
+  max-width: 1296px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.testimonials-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+}
+
+.testimonials-title {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.5;
+  color: #212B36;
+  margin: 0;
+}
+
+.testimonials-subtitle {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.571;
+  color: #637381;
+  margin: 0;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px 30px;
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 12px 32px 0px rgba(29, 32, 38, 0.1);
+}
+
+.testimonial-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.testimonial-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.testimonial-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonial-text {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #212B36;
+  margin: 0;
+}
+
+.testimonial-author {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.author-name {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #212B36;
+  margin: 0;
+}
+
+.author-title {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #637381;
+  margin: 0;
+}
+
+@media (max-width: 1200px) {
+  .testimonials-section {
+    padding: 80px 40px;
+  }
+  
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonials-section {
+    padding: 60px 20px;
+  }
+  
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .testimonial-card {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonial-card {
+    padding: 20px 16px;
+  }
+  
+  .testimonial-content {
+    gap: 16px;
+  }
+}
