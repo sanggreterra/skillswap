@@ -8,12 +8,7 @@ const Header = () => {
         {/* Logo */}
         <div className="logo">
           <div className="logo-icon">
-            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="40" height="40" rx="8" fill="#00AB55"/>
-              <path d="M20 5L25 15H15L20 5Z" fill="white"/>
-              <path d="M15 15L20 25L25 15H15Z" fill="white"/>
-              <path d="M20 25L15 35L25 15L20 25Z" fill="white"/>
-            </svg>
+            <img src="skillswap_icon.png" alt="SkillSwap Logo" width={40} height={40} />
           </div>
           <span className="logo-text">SKILLSWAP</span>
         </div>
@@ -42,8 +37,8 @@ const Header = () => {
 
         {/* Buttons */}
         <div className="header-buttons">
-          <button className="btn-outline">Register</button>
-          <button className="btn-primary">
+          <button className="btn-outline" onClick={() => window.location.hash = '#signup'}>Register</button>
+          <button className="btn-primary" onClick={() => window.location.hash = '#login'}>
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M8 8C10.2091 8 12 6.20914 12 4C12 1.79086 10.2091 0 8 0C5.79086 0 4 1.79086 4 4C4 6.20914 5.79086 8 8 8Z" fill="white"/>
               <path d="M8 10C5.79086 10 4 11.7909 4 14V16H12V14C12 11.7909 10.2091 10 8 10Z" fill="white"/>

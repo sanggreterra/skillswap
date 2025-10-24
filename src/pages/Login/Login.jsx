@@ -68,12 +68,7 @@ const Login = () => {
           {/* Logo */}
           <div className="logo-section">
             <div className="logo-icon">
-              <svg width="64" height="65" viewBox="0 0 64 65" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="64" height="65" rx="8" fill="#FF6636"/>
-                <path d="M32 8L40 24H24L32 8Z" fill="white"/>
-                <path d="M24 24L32 40L40 24H24Z" fill="white"/>
-                <path d="M32 40L24 56L40 24L32 40Z" fill="white"/>
-              </svg>
+              <img src="skillswap_icon.png" alt="SkillSwap Logo" width={40} height={40} />
             </div>
             <h1 className="logo-text">SKILLSWAP</h1>
           </div>

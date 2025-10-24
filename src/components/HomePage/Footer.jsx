@@ -9,12 +9,7 @@ const Footer = () => {
           <div className="footer-section">
             <div className="footer-logo">
               <div className="logo-icon">
-                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect width="64" height="64" rx="8" fill="#00AB55"/>
-                  <path d="M32 8L40 24H24L32 8Z" fill="white"/>
-                  <path d="M24 24L32 40L40 24H24Z" fill="white"/>
-                  <path d="M32 40L24 56L40 24L32 40Z" fill="white"/>
-                </svg>
+              <img src="skillswap_icon.png" alt="SkillSwap Logo" width={40} height={40} />
               </div>
               <span className="logo-text">SKILLSWAP</span>
             </div>
@@ -54,10 +49,10 @@ const Footer = () => {
                 Mail: skillswap@gmail.com
               </p>
               <div className="social-links">
-                <a href="#" className="social-link">Facebook</a>
-                <a href="#" className="social-link">Twitter</a>
-                <a href="#" className="social-link">Instagram</a>
-                <a href="#" className="social-link">YouTube</a>
+                <a href="https://www.facebook.com/" className="social-link">Facebook</a>
+                <a href="https://x.com/" className="social-link">X (formerly Twitter)</a>
+                <a href="https://www.instagram.com/" className="social-link">Instagram</a>
+                <a href="https://www.youtube.com/" className="social-link">YouTube</a>
               </div>
             </div>
           </div>
@@ -66,7 +61,7 @@ const Footer = () => {
         <div className="footer-divider"></div>
         
         <div className="footer-bottom">
-          <p className="copyright">© 2024 SkillSwap. All rights reserved.</p>
+          <p className="copyright">© 2025 SkillSwap. All rights reserved.</p>
         </div>
       </div>
     </footer>

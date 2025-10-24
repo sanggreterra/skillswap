@@ -9,8 +9,8 @@ import AboutSection from './components/HomePage/AboutSection';
 import TestimonialsSection from './components/HomePage/TestimonialsSection';
 import LatestBlogs from './components/HomePage/LatestBlogs';
 import Footer from './components/HomePage/Footer';
-import Login from './components/Login/Login';
-import Signup from './components/Signup/Signup';
+import Login from './pages/Login/Login';
+import Signup from './pages/Signup/Signup';
 import './App.css';
 
 function App() {
