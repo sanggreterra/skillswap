@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import SkillSwapLogo from '../../skillswap_icon.png'
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
         {/* Logo */}
         <div className="logo">
           <div className="logo-icon">
-            <img src="skillswap_icon.png" alt="SkillSwap Logo" width={40} height={40} />
+            <img src={SkillSwapLogo} alt="SkillSwap Logo" width={40} height={40} />
           </div>
           <span className="logo-text">SKILLSWAP</span>
         </div>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Login.css';
+import SkillSwapLogo from '../../skillswap_icon.png'
 
 const Login = () => {
   const [formData, setFormData] = useState({
@@ -68,7 +69,7 @@ const Login = () => {
           {/* Logo */}
           <div className="logo-section">
             <div className="logo-icon">
-              <img src="skillswap_icon.png" alt="SkillSwap Logo" width={40} height={40} />
+            <img src={SkillSwapLogo} alt="SkillSwap Logo" width={40} height={40} />
             </div>
             <h1 className="logo-text">SKILLSWAP</h1>
           </div>

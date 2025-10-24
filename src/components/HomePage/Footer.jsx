@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import SkillSwapLogo from '../../skillswap_icon.png'
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
           <div className="footer-section">
             <div className="footer-logo">
               <div className="logo-icon">
-              <img src="skillswap_icon.png" alt="SkillSwap Logo" width={40} height={40} />
+              <img src={SkillSwapLogo} alt="SkillSwap Logo" width={40} height={40} />
               </div>
               <span className="logo-text">SKILLSWAP</span>
             </div>
