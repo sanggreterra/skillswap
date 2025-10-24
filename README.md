@@ -317,9 +317,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📞 Contact & Support
 
-- **Email:** support@skillswap.com
 - **GitHub Issues:** https://github.com/sanggreterra/skillswap/issues
-- **Discord:** https://discord.gg/2WAkkChQ
+- **Discord:** sanggreterramax
 
 ---
 
